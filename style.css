@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+
+/* LEFT CONTAINER */ 
+
+
+header {
+    width: 22%;
+    height: 100%;
+    position: fixed;
+    float: left;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.left-container {
+    margin-top: 30px;
+    width: 70%;
+    height: 100%;
+    
+}
+
+/* LOGO */
+
+h1 {
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+
+#cafe {
+    margin-top: 10px;
+}
+
+/* Nav */
+
+nav {
+    width: fit-content;
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 100;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+
+#home {
+    width: fit-content;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+    
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.icons {
+    margin-top: 30px;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons ul li {
+    list-style: none;
+    margin-right: 25px;
+    
+}
+
+.icons ul li a {
+    height: 4px;
+    width: 4px;
+    color: black;
+}
+
+
+/* TEXT */
+
+p {
+    margin-top: 25px;
+    font-size: 10.8px;
+    font-weight: 200;
+    letter-spacing: 1.3px;
+    line-height: 25px;
+}
+
+/* OPENING TIMES */
+
+.opening-times {
+    margin-top: 40px;
+}
+
+h5{
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.opening-times ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.opening-times ul li {
+    list-style: none;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+/* RIGHT CONTAINER */
+
+
+main {
+    width: 78%;
+    float: right;
+    background-color: whitesmoke;
+
+}
+
+.right-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box {
+    height: 500px;
+    width: 480px;
+    bottom: 100px;
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+#box1 {
+    background-image: url(images/coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box2 {
+    background-image: url(images/avontoast.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box3 {
+    background-image: url(images/lady.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box4 {
+    background-image: url(images/fredssignboard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box5 {
+    background-image: url(images/lemonade.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box6 {
+    background-image: url(images/brekkie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box7 {
+    background-image: url(images/fredspaint.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box8 {
+    background-image: url(images/keepcup.jpg);
+    background-size: cover;
+    background-position: center;
+}
