@@ -19,7 +19,7 @@ header {
     float: left;
     display: flex;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .left-container {
@@ -139,7 +139,7 @@ h5{
 main {
     width: 78%;
     float: right;
-    background-color: whitesmoke;
+    background-color: white;
 
 }
 
@@ -205,4 +205,63 @@ main {
     background-image: url(images/keepcup.jpg);
     background-size: cover;
     background-position: center;
+}
+
+
+
+/* Mobile Device */
+
+
+@media only screen and (max-width: 748px) {
+
+    body, html {
+        overflow-x: hidden;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    header {
+        float: none;
+        width: 100%;
+        position: relative;
+        height: fit-content;
+        display: flex;
+        justify-content: left;
+        margin-top: 10px;
+    }
+
+        .left-container{
+            height: fit-content;
+            width: 90%;
+            margin-left: 10px;
+        }
+
+            .opening-times, .signature, nav, .icons{
+                display: none;
+            }
+
+
+            p {
+                font-size: 10px;
+            }
+
+
+            
+
+    main {
+        float: none;
+        width: 100%;
+    }
+
+        .right-container {
+            margin-top: 20px;
+        }
+
+        .box {
+            width: 380;
+            height: 400px;
+        }
+
+
+
 }
