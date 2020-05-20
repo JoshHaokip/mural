@@ -44,6 +44,10 @@ h1 {
 
 /* Nav */
 
+label, #toggle {
+    display: none;
+}
+
 nav {
     width: fit-content;
     margin-top: 10px;
@@ -160,49 +164,49 @@ main {
 }
 
 #box1 {
-    background-image: url(images/coffee.jpg);
+    background-image: url(images/bread-slice.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #box2 {
-    background-image: url(images/avontoast.jpg);
+    background-image: url(images/bunshine.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box3 {
-    background-image: url(images/lady.jpg);
+    background-image: url(images/grains.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box4 {
-    background-image: url(images/fredssignboard.jpg);
+    background-image: url(images/coffee-bread.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box5 {
-    background-image: url(images/lemonade.jpg);
+    background-image: url(images/pasta.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box6 {
-    background-image: url(images/brekkie.jpg);
+    background-image: url(images/herbs.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box7 {
-    background-image: url(images/fredspaint.jpg);
+    background-image: url(images/flour.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box8 {
-    background-image: url(images/keepcup.jpg);
+    background-image: url(images/bread.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -225,8 +229,6 @@ main {
         width: 100%;
         position: relative;
         height: fit-content;
-        display: flex;
-        justify-content: left;
         margin-top: 10px;
     }
 
@@ -234,19 +236,55 @@ main {
             height: fit-content;
             width: 90%;
             margin-left: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
         }
 
-            .opening-times, .signature, nav, .icons{
+            .opening-times, .signature, nav a, .icons{
                 display: none;
+            }
+
+            h1{
+                width: fit-content;
+            }
+
+            .top-bar {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            nav {
+                margin: 0;
+                padding: 0;
+                height: fit-content;
+                width: fit-content;
+            }
+
+            label {
+                font-size: 40px;
+                display: block;
+                cursor: pointer;
+            }
+ 
+
+            #toggle {
+                display: none;
+            }
+
+            #toggle:checked +  a {
+                display: block;
+                
             }
 
 
             p {
-                font-size: 10px;
+                font-size: 12px;
             }
 
 
-            
 
     main {
         float: none;
