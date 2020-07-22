@@ -12,7 +12,7 @@ This was built using HTML and CSS with Sketch and Anima to design and prototype.
 
 1. Initially, I drew the design with pen and paper
 
-2. Used sketch to create prototypes with anima.co 
+2. Used sketch to design and animaapp.com to create prototypes 
 
 3. Planned out the structure of the site on a whiteboard 
 
