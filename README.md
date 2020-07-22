@@ -6,7 +6,7 @@ Recently I have designed and created a website template called ‘Mural’ which
 
 This is only a template as my plan is to consult with businesses to create a product backlog of features they would like to include such as a google maps integration. 
 
-This was built using HTML and CSS with Sketch and Anima to design and prototype. 
+This was built using **HTML** and **CSS** with Sketch and Anima to design and prototype. I was able to work on my knowledge of responsive design and experiment with media queries to create a mobile friendly website. 
 
 **My Process:** 
 
@@ -15,4 +15,3 @@ This was built using HTML and CSS with Sketch and Anima to design and prototype.
 2. Used sketch to design and animaapp.com to create prototypes 
 
 3. Planned out the structure of the site on a whiteboard 
-
